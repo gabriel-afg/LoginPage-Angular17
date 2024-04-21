@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/login-page",
+            "outputPath": "dist/angular-page",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -97,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b3496a03-6667-4902-92a9-f16381e47a15"
   }
 }
